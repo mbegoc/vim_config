@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/home/michel/ws/projects/architecte2/architecte/modules/filemanager'
+let g:netrw_dirhist_2='/home/michel/ws/projects/architecte2/architecte/modules'
+let g:netrw_dirhist_3='/home/michel/ws/projects/concierge/modules/concierge'
+let g:netrw_dirhist_4='/home/michel/ws/projects/demo2/config'
+let g:netrw_dirhist_5='/home/michel/ws/projects/architecte2/architecte/config'
+let g:netrw_dirhist_6='/home/michel/ws/projects/copilote/migrations/versions'
+let g:netrw_dirhist_7='/home/michel/ws/projects/architecte2/architecte/models'
