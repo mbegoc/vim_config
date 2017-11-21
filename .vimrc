@@ -27,7 +27,7 @@ set softtabstop=4
 set si
 set colorcolumn=80
 " theme
-colorscheme elflord " leo
+colorscheme leo
 
 " mouse activation
 set mouse=nvcr
@@ -63,10 +63,15 @@ au BufRead,BufNewFile *.yaml     setfiletype yaml
 " show the status bar all the time
 set laststatus=2
 " colorize the status bar
-"hi StatusLine term=reverse ctermbg=0 ctermfg=7
-"au InsertEnter * hi StatusLine term=none ctermbg=6 ctermfg=6
-"au InsertLeave * hi StatusLine term=reverse ctermbg=0 ctermfg=7
+hi StatusLine term=reverse ctermbg=0 ctermfg=7
+au InsertEnter * hi StatusLine term=none ctermbg=6 ctermfg=6
+au InsertLeave * hi StatusLine term=reverse ctermbg=0 ctermfg=7
 syntax enable
+
+"hi ColorColumn ctermbg=Gray
+hi Normal ctermbg=none
+hi LineNr ctermbg=none
+hi String ctermbg=none
 
 " autoreload .vimrc on write
 au BufWritePost .vimrc source ~/.vimrc
